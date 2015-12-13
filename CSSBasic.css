@@ -1,8 +1,9 @@
 body {
-    font-family: Merriweather Sans,arial;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 .content-wrapper {
-    padding:10px 75px 10px 75px;
+    width: 720px;
+    margin: auto;
 }
 .item-block {
     display: flex;
@@ -24,7 +25,6 @@ li:before { content: "- "}
 }
 .first-footer{
     display:flex;
-    margin-left: 55px;
 }
 .alert-paragraph{
     margin-top: 0;
@@ -64,8 +64,12 @@ td+td {
     background-color: lightblue ;
     border-collapse: collapse;
 }
+.table-licensing{
+    font-size: 12px;
+}
 .licence-paragraph{
     padding-top: 50px;
+    font-size: 12px;
 }
 .table-heading{
     padding-top: 50px;
@@ -101,7 +105,7 @@ h2{
     height: 26px;
     float: right;
     margin: 3px;
-    padding-left: 293px;
+    padding-left: 218px;
 }
 .twitter-container {
     padding-top: 50px;
@@ -109,33 +113,43 @@ h2{
 .second-divider {
     border-color:#6FD5F7 ;
 }.second-footer{
-     padding: 50px 300px 50px 180px;
+     width: 720px;
+     margin: auto;
+
  }
 .pictogram-container{
     display: flex;
 }
 .pictogram {
-    width: 220px;
-    height: 220px;
+    padding-top: 30px;
+    padding-left: 70px;
+    width: 150px;
+    height: 150px;
 }
 .trial-download{
-    padding-top: 100px;
+    padding-top: 85px;
     padding-left: 75px;
 }
 .media{
     padding-top: 75px;
     padding-bottom: 75px;
+    padding-left: 70px;
 }
 .maintwit-logo {
     width: 150px;
     height: 36px;
+    display: block;
 }
 .blog-logo {
     width: 240px;
     height: 36px;
+    display: block;
 }
 .adresses {
     display: flex;
+    width: 500px;
+    padding-left: 70px;
+    font-size: 10px;
 }
 .headquarters-adress{
     padding-right: 40px;
